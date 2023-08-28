@@ -1,0 +1,6 @@
+string = input("Введіть рядок: ")
+char = input("Введіть символ: ")
+
+for i in range(len(string)):
+    if string.find(char, i) != -1:
+        print(f"Символ '{char}' знайдено на позиції {string.find(char, i)}")
